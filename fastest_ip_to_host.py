@@ -7,6 +7,9 @@ import subprocess
 import requests
 from lxml import etree  # 解析库
 
+'''
+输入网址，从ip138和ipaddress获取ping最快的ip写入HOSTS
+'''
 
 def get_ip(ori_url):
     '''
